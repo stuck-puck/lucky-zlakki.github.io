@@ -1,0 +1,72 @@
+body{
+
+  background-image:url(img/tenor.gif);
+
+}
+#all{width:100%;
+
+
+
+}
+#head{
+  background-color: red;
+
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+#left{
+    height:500px;
+    width: 500px;
+    margin: 10px auto;
+    float: left;
+    font-size:80px;
+    background-image: url(img/dada.gif);
+    color:#99CEFA;
+
+
+
+}
+#content{
+  margin: 30px auto;
+  height:500px;
+  width: 100%;
+  font-size:55px;
+background-image: url(img/123.gif);
+color: red;
+background-color:black;
+
+
+}
+#case{
+
+  text-align: center;
+  margin: -20px auto;
+  font-size:75px;
+  background-image:url(img/spinskull.gif);
+  color: #FFF361;
+
+  background-color: red ;
+}
+#down{
+  color:red;
+  height:360px;
+  background-color:black;
+  font-size: 30px;
+  text-align: center;
+  background-image: url(img/giphy.gif);
+
+
+}
+span {
+  line-height: 2em;
+  background: red;
+}
+a:link, a:visited{
+
+  color: #9CFF57;
+  text-decoration: none;
+  border: 3px solid #9CFF57;
+  padding: 2px;
+  line-height: 20px;
+  display: block;}
