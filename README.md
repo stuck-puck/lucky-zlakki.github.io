@@ -1,2 +1,2 @@
 # lucky-zlakki.github.io
-123
+Я съел деда
