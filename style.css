@@ -11,6 +11,7 @@ body{
 }
 #head{
   background-color: red;
+  width: 1600px;
 
   text-align: center;
   font-size: 30px;
@@ -41,13 +42,14 @@ h4 {
   height:530px;
   width: 1600px;
   font-size:57px;
-background-image: url(img/1234.gif);
+background-image: url(img/123.gif);
 color:red;
 background-color:black;
 
 
 }
 #case{
+  width: 1600px;
   text-align: center;
   margin: -20px auto;
   font-size:75px;
@@ -60,6 +62,7 @@ background-color:black;
 
 
 #down{
+  width: 1600px;
   color:red;
   height:360px;
   background-color:black;
