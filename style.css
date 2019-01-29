@@ -8,22 +8,24 @@ body{
 
 
 
+
 }
 #head{
   background-color: red;
   width: 1600px;
+    margin: auto;
 
   text-align: center;
   font-size: 30px;
   color: black;
 }
 #left{
+  float: left;
+    margin: auto;
   color: #FFF361;
   background: red;
   width: 460px;
     height:550px;
-    margin: 10px auto;
-    float: left;
     font-size:60px;
     background-image: url(img/dada.png);
     background-color:#55DCF6;
@@ -36,8 +38,7 @@ h4 {
 }
 
 #content{
-
-
+  margin: auto;
   font-family: sans-serif;
   height:530px;
   width: 1600px;
@@ -49,6 +50,7 @@ background-color:black;
 
 }
 #case{
+
   width: 1600px;
   text-align: center;
   margin: -20px auto;
@@ -62,6 +64,7 @@ background-color:black;
 
 
 #down{
+  margin: auto;
   width: 1600px;
   color:red;
   height:360px;
