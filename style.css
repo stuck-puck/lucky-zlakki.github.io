@@ -1,6 +1,6 @@
 body{
 
-  background-image:url(img/tenor.gif);
+  background-image: url(img/kek.png);
 
 }
 #all{width:100%;
@@ -11,62 +11,97 @@ body{
 
 }
 #head{
-  background-color: red;
-  width: 1600px;
-    margin: auto;
-
-  text-align: center;
-  font-size: 30px;
+  background-color: #C50205;
   color: black;
+  height: 140px;
 }
-#left{
+ #head li{
+  float: left;
+  position: relative;}
+ #head ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+ height: 100px;
+}
+ #head a{
+
+    text-decoration: none;
+    color:black;
+    padding: 0px 30px;
+    line-height: 80px;
+    display:block;
+    -moz-transition:all 1s 00.01s ease;
+    -o-transition:all 1s 00.01s ease;
+    -webkit-transition:all 1s 00.01s ease;
+}
+ #head a:link , a:visited{
+  text-decoration:none;
+  font-size: 60px;
+  color: white;
+  opacity: 0.8;
+
+
+
+
+}
+ #head a:hover {
+  background-color: #55DCF6;
+  padding: 30px;
+  color: black;
+
+
+
+
+}
+ #left{
+  margin: 0px;
+  padding: 0px;
   float: left;
     margin: auto;
   color: #FFF361;
   background: red;
   width: 460px;
-    height:550px;
+    height:525px;
     font-size:60px;
     background-image: url(img/dada.png);
     background-color:#55DCF6;
 
 }
-h4 {
+ #left h4 {
   background-color: black;
   opacity: 0.7;
 
 }
 
 #content{
-  margin: auto;
+  margin: 50px auto;
   font-family: sans-serif;
-  height:530px;
+  height:525px;
   width: 1600px;
-  font-size:57px;
-background-image: url(img/1234.gif);
-color:red;
-background-color:black;
+  font-size:55px;
+background-image: url(img/1234.gif) ;
+background-color: black;
+color:#C50205;
 
+}
+#content p{
 
+  opacity: 0.9;
 }
 #case{
 
-  width: 1600px;
   text-align: center;
-  margin: -20px auto;
-  font-size:75px;
+  margin: 120px auto;
   background-image:url(img/spinskull.gif);
-  color: #FFF361;
 
-  background-color: red ;
+  background-color: #C50205;
 }
-
 
 
 #down{
   margin: auto;
-  width: 1600px;
-  color:red;
+  color:#C50205;
   height:360px;
   background-color:black;
   font-size: 30px;
@@ -76,15 +111,41 @@ background-color:black;
 
 
 }
-span {
-  line-height: 2em;
-  background: red;
-}
-a:link, a:visited{
 
+#case li{
+list-style: none;
+padding: 20px;
+color: #FFF361;
+font-size:75px;
+text-align: center;
+
+}
+#case a:link , a:visited{
   color: #9CFF57;
   text-decoration: none;
   border: 3px solid #9CFF57;
-  padding: 2px;
+  padding: 30px;
   line-height: 20px;
   display: block;}
+
+#case h2{
+  list-style: none;
+  padding: 20px;
+  color: #FFF361;
+  font-size:75px;
+  text-align: center;
+}
+#case h6{
+  margin: -20px;
+  font-size: 20px;
+}
+#right{
+  color:#C50205;
+  background-color:#55DCF6 ;
+  width: 214px;
+  height: 230px;
+  background-image: url(img/semka.png);
+}
+#right:hover{
+  background-image: url(img/semka2.png);
+}
